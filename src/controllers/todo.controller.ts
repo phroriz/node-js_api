@@ -56,5 +56,6 @@ export const remove = async (req: Request, res: Response) => {
     if(todo){
         await todo.destroy();
     }
+    
     res.json({});
 }
