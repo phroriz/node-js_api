@@ -1,9 +1,9 @@
-import { Model, DataType, DataTypes } from 'sequelize';
+import { Model, DataTypes } from 'sequelize';
 import { sequelize } from '../instances/pg';
 
 export interface PhraseInstance extends Model {
     id: number;
-    auuthor: string;
+    author: string;
     txt: string;
 }
 
